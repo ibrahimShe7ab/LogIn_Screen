@@ -44,9 +44,9 @@
         android:layout_height="25dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="5dp"
-        android:drawableEnd="@drawable/access_time"
         android:padding="1.5dp"
         android:text="2 hrs"
+        app:drawableEndCompat="@drawable/access_time"
         app:layout_constraintStart_toEndOf="@+id/profile_image"
         app:layout_constraintTop_toBottomOf="@+id/profile_name" />
 
